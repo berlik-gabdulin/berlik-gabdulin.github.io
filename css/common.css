@@ -559,7 +559,7 @@ h3 {
 .gallery .portfolio__galleryLink:active,
 .gallery .portfolio__galleryLink:focus,
 .gallery .portfolio__galleryLink:hover {
-  box-shadow: 0 5px 30px -6px rgba(0,0,0,.5);
+  box-shadow: 0 2px 30px -15px rgba(0,0,0,.3);
   color: #ff2d55
 }
 @media screen and (max-width:480px) {
