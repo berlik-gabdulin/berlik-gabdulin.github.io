@@ -1,0 +1,49 @@
+[{
+	"id"		: "project-01",
+	"title"		: "Katherin Z Photo",
+	"preview"	: "KatZPhoto.png",
+	"descr"		: "Сайт-портфолио фотографа Екатерины Заечковской, тема WordPress, одностраничный лендинг, полный адаптив, эффект Parallax, векторные иконки Linea, оптимизация графики, скриптов.",
+	"type"		: "landing wordpress",
+	"typeTitle"	: "Лендинд, тема WordPress",
+	"url"		: "http://katherinzphoto.com/"
+}
+,
+{
+	"id"		: "project-02",
+	"title"		: "Ресторан 'Киевский'",
+	"preview"	: "Kiyevskiy.png",
+	"descr"		: "Сайт ресторана Киевский. Сайт не был закончен т.к. не был предоставлен весь дизайн. Очень жаль, ведь получался очень легкий, стильный и яркий сайт. Работать было одно удовольствие. Полный адаптив, оптимизация скорости загрузки - сжатие скриптов, графики.",
+	"type"		: "landing",
+	"typeTitle"	: "Лендинг",
+	"url"		: "http://demo.drive-life.com/kiyevskiy/"
+}
+,
+{
+	"id"		: "project-03",
+	"title"		: "Fine Print Co.",
+	"preview"	: "FinePrintPort.png",
+	"descr"		: "Сайт студенческой газеты 'Fine Print Co.'",
+	"type"		: "multipage",
+	"typeTitle"	: "Многостраничник",
+	"url"		: "http://demo.drive-life.com/fineprint/"
+}
+,
+{
+	"id"		: "project-04",
+	"title"		: "Ариза Дент",
+	"preview"	: "ArizaDentPort.png",
+	"descr"		: "Сайт стоматологии Ариза Дент",
+	"type"		: "landing",
+	"typeTitle"	: "Лендинг",
+	"url"		: "http://demo.drive-life.com/arizadent/"
+}
+,
+{
+	"id"		: "project-05",
+	"title"		: "ArtBanda - MakeUp School",
+	"preview"	: "ArtBandaMockup.png",
+	"descr"		: "Сайт школы мейкапа. Адаптив, анимации при прокрутке, hover-эффекты, ajax-форма обратной связи, адаптивные слайдеры.",
+	"type"		: "landing",
+	"typeTitle"	: "Лендинг",
+	"url"		: "http://demo.drive-life.com/artbanda/"
+}]

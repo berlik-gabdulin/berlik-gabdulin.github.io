@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow, archive">
+    <meta name="googlebot" content="index, follow, archive">
+    <meta name="yandex" content="index, follow, archive">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/manifest.json">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Grani.Art">
+    <meta name="application-name" content="Grani.Art">
+    <meta name="msapplication-config" content="icons/browserconfig.xml">
+    <meta name="theme-color" content="#095a77">
+    <title>Start template</title><!--[if IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script><![endif]-->
+<!--[if IE]>
+    <style type="text/css">
+      html {
+      		margin-right: 17px !important;
+      	}
+    </style><![endif]-->
+    <link rel="stylesheet" href="css/libs.css">
+    <link rel="stylesheet" href="css/common.css">
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <div class="container">
+          <h1 class="maintitle">ProstoBer <span class="maintitle__color">Portfolio</span><span class="maintitle__name">Берлик Габдулин</span></h1>
+          <h2>Верстка, темы CMS WordPress</h2><a class="godown" href="#gallery">смотреть далее</a>
+        </div>
+      </header>
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <h3>Галерея</h3>
+          <p>Тут вы можете ознакомиться с некоторыми из моих работ, все работы условно поделены на несколько категорий - по адаптивности (десктоп онли/десктоп-смартфон/десктоп-планшет-смартфон), по оптимизации, по количеству страниц(лендинги и многостраничники), а так же работы, которые помимо верстки были "посажены на CMS WordPress".</p>
+          <div class="portfolio">
+            <div class="portfolio__nav controls">
+              <div class="portfolio__navItem active" data-filter="all">Все работы</div>
+              <div class="portfolio__navItem" data-filter=".category__1">Адаптивные</div>
+              <div class="portfolio__navItem" data-filter=".category__2">Адаптивные под телефон</div>
+              <div class="portfolio__navItem" data-filter=".category__3">Неадаптивные</div>
+              <div class="portfolio__navItem" data-filter=".category__4">Оптимизированные</div>
+              <div class="portfolio__navItem" data-filter=".category__5">WordPress</div>
+            </div>
+            <div class="portfolio__gallery">
+              <div class="row"></div>
+            </div>
+            <div class="preview__wrapper mfp-hide" id="preview">
+              <div class="preview__imgWrp col-md-6 col-sm-12"><img class="preview__img" src=""></div>
+              <div class="preview__descrWrp col-md-6 col-sm-12">
+                <h4 class="preview__descrTitle">Название макета</h4>
+                <p class="preview__descrText"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sunt tempore voluptatum delectus velit adipisci ab, quae, perferendis dolor eveniet a magnam. Eum earum harum nostrum at minus iusto fugit alias quam quod suscipit praesentium quisquam, minima veniam beatae sed.</p><a class="preview__descrLink" href="" target="_blank">Посмотреть</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h3>Давайте знакомиться</h3>
+          <div class="about__imgWrp"><img class="about__img" src="img/avatar.jpg"></div>
+          <div class="about__descr">
+            <h4>Обо мне</h4>
+            <p>Меня зовут Берлик и занимаюсь созданием сайтов более 4х лет. По образованию программист, учился на специальности "Информационные системы в горном деле". Веб разработке учился и учусь сам с 2013 года. Работал как в студиях с версткой сайтов на потоке, так и самостоятельно на фрилансе. Последнее присутствует до сих пор.</p>
+            <h4>Мои навыки</h4>
+            <p>Верстаю сайты используя HTML/Pug(Jade) и CSS3/SCSS, создаю эффекты и взаимодействие с контентом с помощью jQuery, собираю все с Gulp.js. Еще с помощью Gulp.js происходит оптимизация изображений, сжатие файлов. Использую спрайты, иконки при достаточном качестве конвертирую в вектор.</p>
+            <p>При необходимости именую классы по БЭМ. Все проекты храню на Github и BitBucket.</p>
+            <p>Готовую верстку могу "натянуть" на CMS WordPressTheme, чтобы Вы могли без знаний программирования заменять весь контент на своем сайте через адимн панель данной CMS.</p>
+            <p>Делаю качественно, адаптивно, оптимизировано.</p>
+          </div>
+        </div>
+      </section>
+      <section class="social" id="social">
+        <div class="container">
+          <h3>Связаться со мной</h3>
+          <div class="social__iconWrp">
+            <div class="social__icon"><a class="social__iconLink" href="https://vk.com/berlya" target="_blank"><span class="fa fa-vk"></span></a></div>
+            <div class="social__icon"><a class="social__iconLink" href="https://www.facebook.com/berlik.gabdulin" target="_blank"><span class="fa fa-facebook"></span></a></div>
+            <div class="social__icon"><a class="social__iconLink" href="skype:berlik.gabdulin"><span class="fa fa-skype"></span></a></div>
+            <div class="social__icon"><a class="social__iconLink" href="https://api.whatsapp.com/send?phone=77072997792&amp;text=Привет,%20Берлик!%20Я%20хочу%20заказать%20у%20тебя%20верстку%20сайта!"><span class="fa fa-whatsapp"></span></a></div>
+            <div class="social__icon"><a class="social__iconLink" href="tg://resolve?domain=berlya"><span class="fa fa-telegram"></span></a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container"><span>Portfolio | Берлик Габдулин | Верстка, темы CMS WordPress</span></div>
+    </footer>
+    <div class="mfp-hide" id="callback">
+      <div class="callbackWrp">
+        <h3 class="callback__title"><span>Есть проблема?</span>Запишитесь на приём прямо сейчас</h3>
+        <div class="row">
+          <form class="form">
+            <div class="callbackInputWrp col-md-6 col-xs-6">
+              <input class="callbackInput" type="text" placeholder="Ваше имя">
+            </div>
+            <div class="callbackInputWrp col-md-6 col-xs-6">
+              <input class="callbackInput" type="tel" placeholder="Номер телефона">
+            </div>
+            <div class="callbackInputWrp col-md-6 col-xs-6">
+              <p class="callbackDescr">Чтобы узнать подробности, введите <br>свои данные и мы вам перезвоним</p>
+            </div>
+            <div class="callbackInputWrp col-md-6 col-xs-6">
+              <input class="input button" type="submit" value="ЗАПИСАТЬСЯ НА ПРИЁМ">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="feedbackPopup">
+      <div class="feedback"></div>
+    </div>
+    <div class="popupform call-popup mfp-hide" id="popupformthanks">
+      <h2>Заявка успешно отправлена</h2>
+      <comment>Cпасибо за оставленную вами заявку!</comment>
+    </div>
+    <div class="popupform call-popup mfp-hide" id="popupformerror">
+      <h2>Заявка успешно отправлена</h2>
+      <comment>Cпасибо за оставленную вами заявку!</comment>
+    </div>
+    <noscript>
+      <div class="noscriptWrp">
+        <div class="noscript">
+          <h3 class="noscript__title">Пожалуйста включите JavaScript в настройках Вашего браузера!</h3>
+          <p class="noscript__descr">Как это сделать <a href="https://support.google.com/adsense/answer/12654?hl=ru" target="_blank">посмотрите тут</a></p>
+        </div>
+      </div>
+    </noscript>
+    <script src="js/libs.js" async></script>
+    <script src="js/main.js" async></script>
+  </body>
+</html>
